@@ -1,16 +1,18 @@
 {
   "name": "first_code_node",
   "version": "1.0.0",
-  "description": "",
+  "description": "Hola.",
   "main": "index.js",
+  "type": "module",
   "scripts": {
+    "start": "node ./main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sergio-00/first_code_node.git"
   },
-  "author": "",
+  "author": "Sergio-00",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Sergio-00/first_code_node/issues"
