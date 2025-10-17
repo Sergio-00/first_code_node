@@ -2,7 +2,7 @@
   "name": "first_code_node",
   "version": "1.0.0",
   "description": "Hola.",
-  "main": "index.js",
+  "main": "main.js",
   "type": "module",
   "scripts": {
     "start": "node ./main.js",
