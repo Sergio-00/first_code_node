@@ -1,7 +1,3 @@
-// Crear una API estandar con un sistema CRUD que contenga mascotas, empleados y clientes,
-// crear las rutas de acceso a cada una de ellas y devolver informacion que devuelva una
-// referencia a:
-
 import express from "express";
 const app = express();
 const PORT = 3000;
