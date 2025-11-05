@@ -10,11 +10,11 @@ route.get("/", (req, res) => {
   });
 });
 
-route.put("/", (req, res) => {
+route.post("/", (req, res) => {
   res.send({
-    message: "Enviar un producto",
+    message: "Eliminando un producto",
     status: 200,
-    type: "send product",
+    type: "POST product",
   });
 });
 
@@ -22,7 +22,15 @@ route.delete("/", (req, res) => {
   res.send({
     message: "Eliminando un producto",
     status: 200,
-    type: "delete product",
+    type: "DELETE product",
+  });
+});
+
+route.put("/", (req, res) => {
+  res.send({
+    message: "PUT de producto",
+    status: 200,
+    type: "PUT product",
   });
 });
 
@@ -30,7 +38,7 @@ route.patch("/", (req, res) => {
   res.send({
     message: "Update de un producto",
     status: 200,
-    type: "update product",
+    type: "PATCH product",
   });
 });
 
